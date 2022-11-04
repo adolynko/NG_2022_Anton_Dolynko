@@ -1,4 +1,4 @@
 string = input()
 shortString = sorted(set(string))
-for k in shortString:
-    print(k,"=", string.count(k))
+for letter in shortString:
+    print(letter,"=", string.count(letter))

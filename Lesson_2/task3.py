@@ -1,7 +1,7 @@
 number = int(input())
-for i in range(number):
-    for k in range(number):
-        print(number - k, end=" ")
+for row in range(number):
+    for pillar in range(number):
+        print(number - pillar, end=" ")
     number -= 1
     print()
     

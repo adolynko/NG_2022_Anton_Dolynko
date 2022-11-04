@@ -1,4 +1,4 @@
 number = int(input())
-for i in range(1,number):
-  number = number * i
+for factorial in range(1,number):
+  number = number * factorial
 print(number)

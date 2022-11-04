@@ -1,4 +1,4 @@
 string = str(input())
-a = (string.split(","))
-st = set(a)
-print(st)
+newString = (string.split(","))
+rightString = set(newString)
+print(rightString)

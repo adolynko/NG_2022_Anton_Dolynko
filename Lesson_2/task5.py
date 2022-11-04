@@ -1,10 +1,10 @@
-num = list(map(int, input().split(",")))
-print(min(num))
-print(max(num))
-num = sorted(num)
-del num[0]
-del num[-1]
+number = list(map(int, input().split(",")))
+print(min(number))
+print(max(number))
+num = sorted(number)
+del number[0]
+del number[-1]
 total = 0
-for i in range(len(num)):
-    total = num[0+i] + total
+for element in range(len(number)):
+    total = number[0+element] + total
 print(total)

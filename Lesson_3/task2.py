@@ -47,8 +47,6 @@ def oneMorePrint7():
     print(string)
     print(string)
 
-def exit8():
-    return exit
 
 def number(operation1):
    match operation1:
@@ -67,7 +65,7 @@ def number(operation1):
        case 7:
             oneMorePrint7()
        case 8:
-            exit8()
+            exit()
 print("Choose operation :(1 - sort string, 2 - count elements in string, 3 - print vowels, 4 - print consonants, 5 - reverse string, 6 - print by index, 7 - print string two times, 8 - exit")
 
 operation1 = int(input())

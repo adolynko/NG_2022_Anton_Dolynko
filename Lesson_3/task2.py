@@ -66,6 +66,8 @@ def number(operation1):
             oneMorePrint7()
        case 8:
             exit()
+       case _:
+           print("Error")
 print("Choose operation :(1 - sort string, 2 - count elements in string, 3 - print vowels, 4 - print consonants, 5 - reverse string, 6 - print by index, 7 - print string two times, 8 - exit")
 
 operation1 = int(input())
